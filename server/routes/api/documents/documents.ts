@@ -1007,7 +1007,7 @@ router.post(
       authorize(user, "updateInsights", document);
     }
 
-    if (publish) {
+    if (publish || document.publishedAt === null) {
       if (document.isDraft) {
         authorize(user, "publish", document);
       }
@@ -1432,7 +1432,7 @@ router.post(
       text,
       emoji,
       createdAt,
-      publish,
+      publish: true,
       collectionId,
       parentDocumentId,
       templateDocument,
