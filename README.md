@@ -6,6 +6,15 @@
   <br/>
   <img width="1640" alt="screenshot" src="https://user-images.githubusercontent.com/380914/110356468-26374600-7fef-11eb-9f6a-f2cc2c8c6590.png">
 </p>
+
+This is a modded version of Outline that was used for an internal project. It changed the following things:
+
+- Auto publish documents on update
+- Change highlighter colors
+
+---
+
+
 <p align="center">
   <a href="https://circleci.com/gh/outline/outline" rel="nofollow"><img src="https://circleci.com/gh/outline/outline.svg?style=shield"></a>
   <a href="http://www.typescriptlang.org" rel="nofollow"><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg" alt="TypeScript"></a>
