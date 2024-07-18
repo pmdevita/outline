@@ -7,10 +7,10 @@ import Mark from "./Mark";
 
 export default class Highlight extends Mark {
   /** The colors that can be used for highlighting */
-  static colors = ["#FDEA9B", "#FED46A", "#FA551E", "#B4DC19", "#C8AFF0"];
+  static colors = ["#FDEA9B", "#04FDC5", "#3b82f6", "#8b5cf6", "#f43f5e", "#ef4444", "#f59e0b"];
 
   /** The names of the colors that can be used for highlighting, must match length of array above */
-  static colorNames = ["Coral", "Apricot", "Sunset", "Smoothie", "Bubblegum"];
+  static colorNames = ["Coral", "Bright Teal", "Blue", "Violet", "Rose", "Red", "Amber"];
 
   /** The default opacity of the highlight */
   static opacity = 0.4;
